@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "oldValue",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "newValue",
+						"type": "uint256"
+					}
+				],
+				"name": "DeadlineChanged",
+				"type": "event"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getdeadline",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "setdeadline",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"fantomwill.sol": "FantomWill"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"fantomwill.sol": {
+			"keccak256": "0xa0a9e41918cda9a27a492503db4acebd0d9d0a21713caac1d0d6bc766c68e760",
+			"urls": [
+				"bzz-raw://11791dbcdbf6b96fca4e1ad239d030a38fb99305ac34c83d37b4a8d465f70a8c",
+				"dweb:/ipfs/QmYyShDjgcKbeTu6grUQqMAdovgUTRkrus86zFTgbJUdvS"
+			]
+		}
+	},
+	"version": 1
+}
